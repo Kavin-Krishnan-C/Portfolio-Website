@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            margin: 0.01%;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            background-image: url("Backgr_forwebsite1.jpg");
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            max-width: 100%; 
+        }
+        
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;              
+            justify-content: center;      
+            margin: 20px;
+            opacity: 0.9;                
+        }
+        
+        .image-item {
+            width: calc(33.33% - 20px);  
+            margin: 10px;                
+            text-align: center;          
+        }
+        
+        .image-item img {
+            width: 100%;                 
+            height: auto;                
+            border: 2px solid #ccc;      
+            border-radius: 8px;         
+        }
+        
+        .image-number {
+            background-color: aliceblue;
+            border-radius: 8px;
+            color: #2ecc71;
+            margin-top: 5px;            
+            font-size: 20px;           
+        }
+        .headings{
+            background-color: aliceblue;
+            width: 100%;
+            height: auto;
+            margin: 4px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            max-width: 100%;
+            z-index: 1;
+        }
+        .pseudoheadings{
+            background-color: aliceblue;
+            width: auto;
+            height: auto;
+            margin: 4px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+
+        }
+        .resizedimgs{
+            align-items: center;
+            width:50px;
+            height: auto;
+            border-radius: 8px;
+            justify-content: center;
+        }
+        .custom-link {
+            color: #2ecc71;
+            font-size: 18px;
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        
+        .custom-link:hover {
+            background-color: #27ae60;
+        }
+        .custom-link4{
+            color:#f0f0f0;
+            font-size: 18px;
+            background-color:#27ae60  ;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        .custom-link4:hover {
+            background-color:#f0f0f0;
+            color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="pseudoheadings">
+        <p><pre>              </pre></p>
+    </div>
+    <div class="headings">
+        <a href="24092024_HTML-WEBSITE-6.html" class="custom-link4">Home Page-Photo Gallery:</a>
+        <p><pre>               </pre></p>
+        <img src="RVCELOGO.png" class="resizedimgs">
+        <p><pre>               </pre></p>
+        <a href="About_me.html" class="custom-link">About Me</a>
+        <p><pre>               </pre></p>
+        <a href="Educational_History.html" class="custom-link">My Qualifications</a>
+        <p><pre>               </pre></p>
+        <a href="https://npskengeri.com/" class="custom-link" target="_blank">School</a>
+        <p><pre>               </pre></p>
+        <a href="https://rvce.edu.in/" class="custom-link" target="_blank">College</a>
+    </div>
+    <div class="image-gallery">
+        <div class="image-item">
+            <img src="images/image1.jpeg" alt="Image 1">
+            <div class="image-number">Railfanning with my Friend.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image2.jpeg" alt="Image 2">
+            <div class="image-number">Outing with my School-Mates.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image3.jpeg" alt="Image 3">
+            <div class="image-number">Trip to Wonderla.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image4.jpeg" alt="Image 4">
+            <div class="image-number">Journey to Chennai.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image5.jpeg" alt="Image 5">
+            <div class="image-number">The day I helped someone by finding their Train.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image6.jpeg" alt="Image 6">
+            <div class="image-number">Games of Cricket with my friend.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image7.jpeg" alt="Image 7">
+            <div class="image-number">Railfanning.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image8.jpeg" alt="Image 8">
+            <div class="image-number">Sunday Morning with My Dog, My Mom.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image9.jpeg" alt="Image 9">
+            <div class="image-number">My old Pictures</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image10.jpeg" alt="Image 10">
+            <div class="image-number">12th Felicitation(Aakash)</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image11.jpeg" alt="Image 11">
+            <div class="image-number">My Dog-Arjun</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image12.jpeg" alt="Image 12">
+            <div class="image-number">A Trip to Hyderabad.</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image13.jpeg" alt="Image 13">
+            <div class="image-number">School Trip to Hyderabad</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image14.jpeg" alt="Image 14">
+            <div class="image-number">Temple Visit with my Mom</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image15.jpeg" alt="Image 15">
+            <div class="image-number">Wednesday Outing with my Sister</div>
+        </div>
+        <div class="image-item">
+            <img src="images/image16.jpeg" alt="Image 16">
+            <div class="image-number">A day in KSR {Railway Station}</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavin Krishnan C-Home Page</title>
+    <style>
+        body{
+            margin: 0.01%;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            background-image: url("Backgr_forwebsite1.jpg");
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            max-width: 100%;
+        }
+
+        .custom-link {
+            color: #2ecc71;
+            font-size: 18px;
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        
+        .custom-link:hover {
+            background-color: #27ae60;
+        }
+
+        .headings{
+            background-color: aliceblue;
+            width: 100%;
+            height: auto;
+            margin: 4px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            max-width: 100%;
+            z-index: 1;
+        }
+
+        .pseudoheadings{
+            background-color: aliceblue;
+            width: auto;
+            height: auto;
+            margin: 4px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+
+        }
+
+        .Footer{
+            background-color: aliceblue;
+            width: auto;
+            height: auto;
+            margin: 4px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .resizedimgs{
+            align-items: center;
+            width:50px;
+            height: auto;
+            border-radius: 8px;
+            justify-content: center;
+        }
+        .content{
+            background-color: aliceblue;
+            width: auto;
+            height: auto;
+            margin: 4px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            display: flex;
+            opacity: 0.9;
+        }
+        .blogs{
+            background-color: rgb(181, 251, 165);
+            width: 33%;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+        }
+        .latestphotos{
+            background-color: rgb(181, 251, 165);
+            width: 33%;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .latestachievements{
+            background-color: rgb(181, 251, 165);
+            width: 33%;
+            height: auto;
+            border-radius: 10px;
+            margin: 0 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            
+        }
+        .marquee-container {
+            width: 100%; 
+            overflow: hidden; 
+            background-color: #f1f1f1;
+            white-space: nowrap; 
+            box-sizing: border-box;
+          }
+      
+          
+          .marquee-text {
+            display: inline-block;
+            padding-left: 20%; 
+            animation: marquee 20s linear infinite; 
+            color: rgb(85, 255, 38);
+            font-size:large ; 
+          }
+      
+      
+          @keyframes marquee {    /*This is for the scrolling text that goes outside and comes back inside on the screen*/
+            0% {
+              transform: translateX(-100%); /* Start from outside the container */
+            }
+            100% {
+              transform: translateX(100%); /* End fully off-screen to the left */
+            }
+          }
+        .blogsinsider{
+            background-color: aliceblue;
+            width: auto;
+            height: auto;
+            margin: 3px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+
+          }
+        .custom-link2 {
+            color: #2ecc71;
+            font-size: 18px;
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        
+        .custom-link2:hover {
+            background-color: #27ae60;
+        }
+        .custom-link3 {
+            color: #2ecc71;
+            font-size: 18px;
+            background-color: #f0f0f0;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .custom-link3:hover {
+            background-color: #27ae60;
+        }
+        .insidetitles{
+            text-align: center;
+            background-color: aliceblue;
+            text-decoration: underline;
+            border-color: rgb(141, 249, 116);
+            border: 10px;
+            border-radius: 12%;
+          }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Space between images */
+            justify-content: center;
+        }
+        
+        .image-gallery img {
+            width: 150px; /* Set a width for each image */
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        .tables1{
+            border: 2px solid black;
+
+        }
+        th, td {
+            border: 1px dashed blue; /* Dashed border for table cells */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pseudoheadings">    /*pseudoo- FALSEE heading as a background placeholder for my main non scrollable heading box*/
+        <p><pre>              </pre></p>
+    </div>
+    <div class="marquee-container">
+        <span class="marquee-text">Currently Studying First Year @ RV College of Engineering.</span>
+        <span class="marquee-text">Have a Great Day!</span>
+    </div>
+    <div class="headings">
+        <a href="24092024_HTML-WEBSITE-6.html" class="custom-link">Home Page </a>
+        <p><pre>               </pre></p>
+        <img src="RVCELOGO.png" class="resizedimgs">
+        <p><pre>               </pre></p>
+        <a href="About_me.html" class="custom-link">About Me</a>
+        <p><pre>               </pre></p>
+        <a href="Educational_History.html" class="custom-link">My Qualifications</a>
+        <p><pre>               </pre></p>
+        <a href="https://npskengeri.com/" class="custom-link" target="_blank">School</a>
+        <p><pre>               </pre></p>
+        <a href="https://rvce.edu.in/" class="custom-link" target="_blank">College</a>
+    </div>
+    <div class="content">
+        <p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+        <a href="myblogs.html"><div class="blogs">
+            <p><pre></pre></p>
+            <a href="myblogs.html" class="custom-link2"><b>My Blogs</b></a>
+            <p><pre></pre></p>
+            <div class="blogsinsider">
+                 <h3>21-09-2024 : Attending a Motivational Workshop</h3>
+                 <p>The day began with anticipation, as I headed to college for a motivational workshop. The morning was filled with insightful talks on self-growth and pushing boundaries. The speakers shared powerful strategies on overcoming challenges, staying resilient, and embracing failure as part of the journey.</p>
+                 <a href="myblogs.html" class="custom-link3">+Readmore</a>
+            </div>
+            <div class="blogsinsider">
+                <h3>22-09-2024: A Session on the Ramayana</h3>
+                 <p>Today’s highlight was attending a session in college on the Indian epic, the Ramayana. The morning discussions delved deep into the moral lessons from the epic, focusing on leadership, devotion, and ethics. The wisdom drawn from ancient texts felt surprisingly relevant to modern challenges. I left the session inspired by the timeless values it emphasized.</p>
+                 <a href="myblogs.html" class="custom-link3">+Readmore</a>
+
+            </div>
+            <div class="blogsinsider">
+                <h3>23-09-2024 : A Trip to the Railway Station</h3>
+                 <p>The third day brought a shift from routine, as I found myself at the railway station in the morning. Although it was a casual visit, the hustle and energy of the place felt refreshing. The busy platforms and constant movement of trains symbolized the flow of life—never standing still.</p>
+                 <a href="myblogs.html" class="custom-link3">+Readmore</a>
+
+            </div>
+            <div class="blogsinsider">
+                <h3>24-09-2024 : A Family Day Out</h3>
+                 <p>After a few busy days, today I spent the morning with my family. We decided to go out for a day of relaxation, which was a much-needed break. It was a heartwarming day, filled with conversations, laughter, and good food.</p>
+                 <a href="myblogs.html" class="custom-link3">+Readmore</a>
+
+            </div>
+        </div>
+        </a>
+        <div class="latestphotos">
+            <p><pre></pre></p>
+            <a href="latestphotos.html" class="custom-link2"><b>My Latest Photos</b></a>
+            <p><pre></pre></p>
+            <div class="image-gallery">
+                <img src="images/image1.jpeg" alt="Image 1">
+                <img src="images/image2.jpeg" alt="Image 2">
+                <img src="images/image3.jpeg" alt="Image 3">
+                <img src="images/image4.jpeg" alt="Image 4">
+                <img src="images/image5.jpeg" alt="Image 5">
+                <img src="images/image6.jpeg" alt="Image 6">
+                <img src="images/image7.jpeg" alt="Image 7">
+                <img src="images/image8.jpeg" alt="Image 8">
+                <img src="images/image9.jpeg" alt="Image 9">
+                <img src="images/image10.jpeg" alt="Image 10">
+                <img src="images/image12.jpeg" alt="Image 11">
+                <img src="images/image13.jpeg" alt="Image 12">
+                <a href="latestphotos.html" class="custom-link3">+View More</a>
+                <p><pre></pre></p>
+            </div>
+        </div>
+        <div class="latestachievements">
+            <p><pre></pre></p>
+            <a href="Educational_History.html" class="custom-link2"><b>Latest Achievements and Educational_History</b></a>
+            <p><pre></pre></p>   
+            <div class="blogsinsider">
+                <h3>UCMAS Abacus 2nd Runner Up in State Level</h3>
+                <a href="Educational_History.html" class="custom-link3">+View More</a>
+                <p><pre> </pre></p>
+           </div>
+           <div class="blogsinsider">
+                <h3>Represented School Team in CBSE Interschool Throwball Team</h3>
+                <a href="Educational_History.html" class="custom-link3">+View More</a>
+                <p><pre> </pre></p>
+           </div>
+           <div class="blogsinsider">
+                <h3>Graduated First Class in Abacus Grandmaster Level</h3>
+                <a href="Educational_History.html" class="custom-link3">+View More</a>
+                <p><pre> </pre></p>
+           </div>
+           <div class="blogsinsider">
+            <h2>Exam Results</h2>
+            <table class="tables1">
+                <thead>
+                    <tr>
+                        <th>Exam</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>COMEDK</td>
+                        <td>99.85 %ile [AIR-165]</td>
+                    </tr>
+                    <tr>
+                        <td>NSEC</td>
+                        <td>Centre Top 2%</td>
+                    </tr>
+                    <tr>
+                        <td>JEE (Mains)</td>
+                        <td>98.58 %ile</td>
+                    </tr>
+                    <tr>
+                        <td>PESSAT</td>
+                        <td>AIR-212</td>
+                    </tr>
+                    <tr>
+                        <td>VITEEE</td>
+                        <td>AIR-5552</td>
+                    </tr>
+                    <tr>
+                        <td>AEEE</td>
+                        <td>98.06 %ile [~AIR-840]</td>
+                    </tr>
+                    <tr>
+                        <td>IIIT UGEEE</td>
+                        <td>Exam cleared, scheduled to appear for interview</td>
+                    </tr>
+                    <tr>
+                        <td>International Mathematics Olympiad (IMO)</td>
+                        <td>
+                            Level-1: International Rank-45<br>
+                            Regional Rank-06<br>
+                            Zonal Rank-01<br>
+                            Level-2: Achieved certificate of zonal excellence [IR-222]
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>AISSCE</td>
+                        <td>95.8% age</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><pre></pre></p>
+            <a href="Educational_History.html" class="custom-link3">+View More</a>
+            <p><pre> </pre></p>
+        </div>
+        </div>
+    </div>
+    <div class="Footer">
+        <h5>My Socials:</h5>
+        <p><pre>          </pre></p>
+        <h5>+91 9513344481</h5>
+        <a href="tel:+9513344481" target="_blank"><img src="phoen number icon.jpeg" class="resizedimgs"></a>
+        <p><pre>              </pre></p>
+        <h5>Email-ID</h5>
+        <a href="mailto:kavin.krishnan2006@gmail.com"><img src="gmaillogo.png" class="resizedimgs"></a>
+        <p><pre>              </pre></p>
+        <h5>Facebook</h5>
+        <a href="https://www.facebook.com/profile.php?id=100067824181511" target="_blank"><img src="facebooklogo.png" class="resizedimgs"></a>
+        <p><pre>              </pre></p>
+        <h5>Instagram</h5>
+        <a href="https://www.instagram.com/kavin_c_krishnan/?hl=en" target="_blank"><img src="instagramlogo.jpeg" class="resizedimgs"></a>
+        <p><pre>              </pre></p>
+        <h5>LinkedIn</h5>
+        <a href="https://in.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><img src="linkedinprofilepic.png" class="resizedimgs"></a>
+        <p><pre>              </pre></p>
+        <h5>Address</h5>
+        <a href="https://g.co/kgs/JxwYkY6" target="_blank"><img src="address icon.png" class="resizedimgs"></a>
+    </div>
+</body>
+</html>
